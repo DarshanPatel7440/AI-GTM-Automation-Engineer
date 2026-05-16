@@ -46,40 +46,6 @@ Built for **VideoSDK.live** — a real-time video/audio/streaming SDK for develo
 
 ---
 
-## 🏗️ Architecture
-
-```
-                        ┌─────────────────┐
-                        │   User Browser  │
-                        └────────┬────────┘
-                                 │
-                        ┌────────▼────────┐
-                        │  Streamlit App  │
-                        │    (app.py)     │
-                        └────────┬────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-              │                  │                  │
-     ┌────────▼───────┐ ┌────────▼───────┐ ┌───────▼────────┐
-     │ generate_       │ │ generate_sdr_  │ │  Pipeline      │
-     │ companies()     │ │ report()       │ │  Dashboard     │
-     │                 │ │                │ │                │
-     │ Prompt → LLM   │ │ Prompt → LLM  │ │ session_state  │
-     │ Returns JSON    │ │ Returns JSON   │ │ → DataFrame    │
-     │ (10 companies)  │ │ (full report)  │ │ → Export JSON  │
-     └────────┬───────┘ └────────┬───────┘ └────────────────┘
-              │                  │
-              └──────────────────┘
-                                 │
-                        ┌────────▼────────┐
-                        │   Groq API      │
-                        │  llama-3.3-70b  │
-                        │  (FREE tier)    │
-                        └─────────────────┘
-```
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
