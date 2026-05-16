@@ -203,10 +203,20 @@ Every run produces a fresh, diverse set of targets. Demonstrates AI-native think
 
 ---
 
-## Demo Video
+## Demo Pictures
 <img width="873" height="372" alt="Screenshot 2026-05-16 131326" src="https://github.com/user-attachments/assets/d8682a9a-2ed9-4a7a-96be-312624f6bc83" />
+
+
 <img width="1110" height="582" alt="Screenshot 2026-05-16 131347" src="https://github.com/user-attachments/assets/fbae52c7-cee4-4b80-8419-ea4f70d81eea" />
+
+
 <img width="453" height="622" alt="Screenshot 2026-05-16 131400" src="https://github.com/user-attachments/assets/ae94fb68-1b81-4b6a-afa4-ba2aeaad6921" />
+
+
 <img width="962" height="537" alt="Screenshot 2026-05-16 131419" src="https://github.com/user-attachments/assets/95730dfe-f15b-4c66-aa37-741a15d160ae" />
+
+
 <img width="951" height="503" alt="Screenshot 2026-05-16 131442" src="https://github.com/user-attachments/assets/43af9932-a401-4cf2-846d-45638d650d8d" />
+
+
 <img width="1460" height="281" alt="Screenshot 2026-05-16 131453" src="https://github.com/user-attachments/assets/10d9c400-2b5e-47d6-980e-78c3ace24dbd" />
