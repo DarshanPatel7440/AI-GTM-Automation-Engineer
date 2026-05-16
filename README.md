@@ -158,12 +158,6 @@ videosdk-ai-sdr/
 
 To avoid pasting the API key every time, set it as an environment variable:
 
-**Mac/Linux:**
-```bash
-export GROQ_API_KEY=gsk_your_key_here
-streamlit run app.py
-```
-
 **Windows (Command Prompt):**
 ```cmd
 set GROQ_API_KEY=gsk_your_key_here
@@ -206,23 +200,6 @@ Streamlit reruns the entire script on every interaction. `session_state` persist
 Every run produces a fresh, diverse set of targets. Demonstrates AI-native thinking — the workflow itself is dynamic, not static.
 
 ---
-
-## 🔮 What I'd Build Next
-
-- [ ] Apollo.io / Hunter.io API integration for real contact discovery
-- [ ] Automatic email sending via SendGrid
-- [ ] LinkedIn DM queue via PhantomBuster integration
-- [ ] Follow-up sequence generator (Day 3, Day 7, Day 14)
-- [ ] CRM push (HubSpot / Salesforce API)
-- [ ] Webhook trigger when a company signs up on videosdk.live
-- [ ] Slack notification when priority score > 8
-- [ ] Multi-model support (Claude, GPT-4o, Gemini) with A/B testing on email copy
-
----
-
-## 📄 License
-
-MIT — free to use, modify, and share.
 
 ---
 
