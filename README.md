@@ -200,6 +200,10 @@ Streamlit reruns the entire script on every interaction. `session_state` persist
 Every run produces a fresh, diverse set of targets. Demonstrates AI-native thinking — the workflow itself is dynamic, not static.
 
 ---
+## Demo Video link 
+
+https://www.loom.com/share/74201ee0dcb64753a8577debddc63dfe
+
 
 ---
 
